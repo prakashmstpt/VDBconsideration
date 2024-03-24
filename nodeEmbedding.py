@@ -63,4 +63,4 @@ for epoch in range(1, 101):
 
 z = model()  # Full node-level embeddings.
 z = model(torch.tensor([1,10]))  # Embeddings of First and Tenth nodes.
-print("Node embeddings of 512 leangth Node 1 and node 10 {}".format(z))
+print("Node embeddings of 512 length Node 1 and node 10 {}".format(z))
