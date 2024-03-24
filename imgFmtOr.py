@@ -38,16 +38,16 @@ ejpg=imgembeddings[0]
 epng=imgembeddings[1]
 # Calculate cosine similarity
 similarity = cosine_similarity(ejpg, epng)
-print("JPG vector embdings with a length {} --  {}".format(len(ejpg),formatEmbedsing(ejpg)))
-print("PNGvector embdings with a length {} --  {}".format(len(epng),formatEmbedsing(epng)))
+print("JPG vector embeddings with a length {} --  {}".format(len(ejpg),formatEmbedsing(ejpg)))
+print("PNGvector embeddings with a length {} --  {}".format(len(epng),formatEmbedsing(epng)))
 print("Similarity of same image in JPG vs PNG {}".format(similarity))
 eareal=imgembeddings[2]
 similarity = cosine_similarity(ejpg, eareal)
-print("OBJ vector embdings with a length {} --  {}".format(len(ejpg),formatEmbedsing(ejpg)))
-print("OBJ Areal vector embdings with a length {} --  {}".format(len(eareal),formatEmbedsing(eareal)))
-print("Similarity of same object differnt orientation {}".format(similarity))
+print("OBJ vector embeddings with a length {} --  {}".format(len(ejpg),formatEmbedsing(ejpg)))
+print("OBJ Areal vector embeddings with a length {} --  {}".format(len(eareal),formatEmbedsing(eareal)))
+print("Similarity of same object different orientation {}".format(similarity))
 ewrare=imgembeddings[3]
 similarity = cosine_similarity(ejpg, ewrare)
-print("OBJ vector embdings with a length {} --  {}".format(len(ejpg),formatEmbedsing(ejpg)))
-print("OBJ color vector embdings with a length {} --  {}".format(len(ewrare),formatEmbedsing(ewrare)))
-print("Similarity of same object differnt color {}".format(similarity))
+print("OBJ vector embeddings with a length {} --  {}".format(len(ejpg),formatEmbedsing(ejpg)))
+print("OBJ color vector embeddings with a length {} --  {}".format(len(ewrare),formatEmbedsing(ewrare)))
+print("Similarity of same object different color {}".format(similarity))
